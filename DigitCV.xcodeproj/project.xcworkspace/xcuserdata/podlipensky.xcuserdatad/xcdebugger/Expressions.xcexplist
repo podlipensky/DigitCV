@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NetworkSGD::Backprop(cv::Mat const&amp;, cv::Mat const&amp;, std::__1::vector&lt;cv::Mat, std::__1::allocator&lt;cv::Mat&gt; &gt;&amp;, std::__1::vector&lt;cv::Mat, std::__1::allocator&lt;cv::Mat&gt; &gt;&amp;):NetworkSGD.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "NetworkSGD::Train(cv::Ptr&lt;cv::ml::TrainData&gt; const&amp;, unsigned int):NetworkSGD.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
