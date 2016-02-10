@@ -1,5 +1,5 @@
 # DigitCV
-==Simple neural net for handwritten digits recognition==
+Simple neural net for handwritten digits recognition
 
 This is C++ implementation of simple neural net with single hidden layer and stochastic gradient descent learning algorithm. This project uses OpenCV for matrix manipulation. There is no good reason to use OpenCV instead of any other library, but I decided to do so in order to learn OpenCV framework.
 
