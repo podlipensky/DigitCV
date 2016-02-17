@@ -146,7 +146,7 @@ public:
             activations.push_back(activation);
         }
         // backward pass
-        Mat delta = CostDerivative(activations.back(), y).mul(Sigmoid(zs.back()));
+        Mat delta = CostDerivative(activations.back(), y).mul(SigmoidPrime(zs.back()));
         int lastIdx = delta_b.size()-1;
         delta_b[lastIdx] = delta;
         delta_w[lastIdx] = delta*activations[m_layersCount-2].t();
