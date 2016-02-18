@@ -279,11 +279,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
             landmarkType = "5">
          </BreakpointContent>
@@ -295,11 +295,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "class NetworkSGD"
             landmarkType = "3">
          </BreakpointContent>
@@ -311,11 +311,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
             landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
             landmarkType = "5">
          </BreakpointContent>
@@ -327,55 +327,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
-            landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "Sigmoid(const Mat &amp;z)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
@@ -391,11 +343,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DigitCV/NetworkSGD.cpp"
+            timestampString = "477503101.972697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "Sigmoid(const Mat &amp;z)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DigitCV/NetworkSGD.cpp"
+            timestampString = "477503101.972697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DigitCV/NetworkSGD.cpp"
+            timestampString = "477503101.972697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "Evaluate(unsigned epoch, const Mat &amp;samples, const Mat &amp;labels)"
             landmarkType = "5">
          </BreakpointContent>
@@ -407,11 +407,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "Evaluate(unsigned epoch, const Mat &amp;samples, const Mat &amp;labels)"
             landmarkType = "5">
          </BreakpointContent>
@@ -423,11 +423,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "Evaluate(unsigned epoch, const Mat &amp;samples, const Mat &amp;labels)"
             landmarkType = "5">
          </BreakpointContent>
@@ -439,11 +439,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "Evaluate(unsigned epoch, const Mat &amp;samples, const Mat &amp;labels)"
             landmarkType = "5">
          </BreakpointContent>
@@ -455,12 +455,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "UpdateMiniBatch(Mat batch, Mat batch_labels, double eta)"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "UpdateMiniBatch(Mat batch, Mat batch_labels, unsigned allRowsCount, double eta, double reg)"
             landmarkType = "5">
             <Locations>
                <Location
@@ -518,12 +518,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "UpdateMiniBatch(Mat batch, Mat batch_labels, double eta)"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "UpdateMiniBatch(Mat batch, Mat batch_labels, unsigned allRowsCount, double eta, double reg)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -534,12 +534,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477502652.628381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "Train(const Ptr&lt;ml::TrainData&gt; &amp;data, unsigned epochCount, unsigned batchSize)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "Train(const Ptr&lt;ml::TrainData&gt; &amp;data, unsigned epochCount, unsigned batchSize, double learningRate, double reg)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -550,28 +550,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
+            timestampString = "477503101.972697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "Backprop(const Mat &amp;X, const Mat &amp;y, vector&lt;Mat&gt; &amp;delta_b, vector&lt;Mat&gt; &amp;delta_w)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DigitCV/NetworkSGD.cpp"
-            timestampString = "475532776.839029"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "UpdateMiniBatch(Mat batch, Mat batch_labels, double eta)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

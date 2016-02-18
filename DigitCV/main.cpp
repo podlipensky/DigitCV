@@ -29,6 +29,6 @@ int main(int argc, const char * argv[]) {
         return 0;
     }
     // train network
-    net.Train(raw_data, 20, 10);
+    net.Train(raw_data, 20, 10, 3.0, 0.1);
     return 0;
 }

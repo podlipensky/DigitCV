@@ -43,7 +43,12 @@ public:
         }
     }
     
-    void Train(const Ptr<ml::TrainData> &data, unsigned epochCount, unsigned batchSize) {
+    /**
+     * Train network on dataset @data, using @epochCount epochs and @batchSize batches.
+     * Also it will use L2 regularization with rate @reg.
+     * @learningRate (eta) specify how fast network will learn.
+     */
+    void Train(const Ptr<ml::TrainData> &data, unsigned epochCount, unsigned batchSize, double learningRate, double reg) {
         // Looks like there is a bug in OpenCV implementation of shuffleTrainTest since it
         // mixes responses in incorrect way. Therefore the algorithm is less efficient because
         // we train it based on the same dataset over and over again.
@@ -65,7 +70,9 @@ public:
             for(unsigned i = 0; i < trainSamples.rows-batchSize; i+=batchSize) {
                 UpdateMiniBatch(trainSamples.rowRange(cv::Range(i, i+batchSize)),
                                 trainLabels.rowRange(cv::Range(i, i+batchSize)),
-                                3.0);
+                                trainSamples.rows,
+                                learningRate,
+                                reg);
             }
             Evaluate(e, testSamples, testLabels);
         }
@@ -99,7 +106,13 @@ public:
         cout << "Epoch " << epoch << ": got " << correctCount << " out of " << samples.rows << endl;
     }
     
-    void UpdateMiniBatch(Mat batch, Mat batch_labels, double eta) {
+    /**
+     * Update network weights based on observed data.
+     * @batch - subset of data to train on
+     * @batch_labels - expected output from the network for a given batch
+     * @eta - learning rate
+     */
+    void UpdateMiniBatch(Mat batch, Mat batch_labels, unsigned allRowsCount, double eta, double reg) {
         vector<Mat> nabla_b = GetBiasesMatZeros();
         vector<Mat> nabla_w = GetWeightsMatZeros();
         
@@ -122,7 +135,7 @@ public:
             }
         }
         for (int i = 0; i < m_layersCount-1; i++) {
-            m_weights[i] = m_weights[i] - (eta/batch.rows) * nabla_w[i];
+            m_weights[i] = m_weights[i] * (1 - eta * reg / allRowsCount) - (eta/batch.rows) * nabla_w[i];
             m_biases[i] = m_biases[i] - (eta/batch.rows) * nabla_b[i];
         }
     }
